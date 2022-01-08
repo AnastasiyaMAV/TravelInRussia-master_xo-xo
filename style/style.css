@@ -77,7 +77,13 @@
     margin-right:auto;
     margin: 48px auto 0 auto;
 }
-
+.hat{
+    width: 15%;
+    position: absolute;
+    left: 36px;
+    top: 65px;
+    bottom: 55px;
+}
 .lead__title{
     font-size:5em;
     line-height:92px;
