@@ -498,8 +498,20 @@
     font-weight: 400;
 }
 
+.snowman__image {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
 /*1280 - бесконечность*/
 @media screen and (min-width:1280px) {
+    .snow__image {
+        max-width: 1440px;
+    }
+
+
+
     .site{
         max-width:1440px; 
     }
@@ -523,6 +535,10 @@
 
 /*1024-1280*/
 @media screen and (max-width:1279px) {
+    .snow__image {
+        max-width: 1024px;
+    }
+
     .site{
         width: 100%;
     }
@@ -654,6 +670,10 @@
 
 /*768-1023*/
 @media screen and (max-width:1023px){
+    .snow__image {
+        max-width: 768px;
+    }
+
     .site{
         width: 100%;
     }
@@ -872,6 +892,10 @@
 
 /*425-767*/
 @media screen and (max-width:767px){
+    .snow__image {
+        max-width: 425px;
+    }
+
     .site{
         min-width:425px;
         width:100%;
@@ -1164,6 +1188,10 @@
 
 /*300-425   375!!*/
 @media screen and (min-width: 300px) and (max-width: 424px){
+    .snow__image {
+        max-width: 300px;
+    }
+
     .site{
         min-width:300px;
         max-width: 424px;
