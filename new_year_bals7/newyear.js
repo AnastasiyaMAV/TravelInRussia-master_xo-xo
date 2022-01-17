@@ -11,7 +11,7 @@ $(function () {
 
     // функция отвечающая за музыку
     function f() {
-        var i = "/new_year_bals7/ny_sing.mp3";
+        var i = "./new_year_bals7/ny_sing.mp3";
         i = i + "?nc=" + (new Date().getTime());
         swfobject.embedSWF(i, "z-audio__player", "1", "1", "9.0.0", null, {}, {
             allowScriptAccess: "always",
